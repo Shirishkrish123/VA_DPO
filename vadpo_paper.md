@@ -145,10 +145,10 @@ Table 1 presents all metrics across DPO, KTO, and VA-DPO ($\lambda \in \{0.1, 0.
 ![Gradient Norm Std](outputs/stability_analysis/compare_grad_norm_std.png)
 *Figure 1. Gradient Norm Std Dev across methods. Shows monotonic reduction (DPO = 4.74, VA-0.1 = 4.06, VA-0.2 = 3.55, VA-0.3 = 3.32). This primary result serves as direct evidence that VA-DPO is doing what it was designed to do.*
 
-![Figure 2 — Mean Reward Margin](compare_margin_mean.png)
+![Mean Reward Margin](outputs/stability_analysis/compare_margin_mean.png)
 *Figure 2. Mean Reward Margin across methods. Shows that preference learning quality remains largely preserved, directly supporting the claim that stability improvements do not substantially degrade alignment performance. This is arguably the most important figure alongside Figure 1.*
 
-![Figure 3 — Gradient Norm Over Training](overlay_grad_norm.png)
+![Gradient Norm Over Training](outputs/stability_analysis/overlay_grad_norm.png)
 *Figure 3. Gradient Norm over training steps. A qualitative visualization letting readers visually observe the large spikes in DPO, how VA-DPO smooths these fluctuations, and the natural stability of KTO, making the results intuitive.*
 
 ### 5.1 Gradient Stability
