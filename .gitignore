@@ -1,0 +1,37 @@
+# Python / Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Hugging Face Cache & Datasets
+datasets/
+models/
+S:/hf_cache/
+.cache/
+
+# Large Weights & Checkpoints (Exclude from Git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.h5
+checkpoint-*/
+outputs/**/checkpoint-*/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Unused Diagnostic & Experimental Scripts
+_inspect_logs.py
+check_quant.py
+06_kto_proxy_accuracy.py

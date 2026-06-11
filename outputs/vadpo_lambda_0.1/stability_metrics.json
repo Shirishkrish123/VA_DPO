@@ -1,0 +1,6 @@
+{
+  "loss_std_deviation": 0.0021619374838812047,
+  "grad_norm_std": 3.9605654496191836,
+  "lambda_va": 0.1,
+  "mean_va_penalty": Infinity
+}
