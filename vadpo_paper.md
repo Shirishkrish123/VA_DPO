@@ -142,7 +142,7 @@ Table 1 presents all metrics across DPO, KTO, and VA-DPO ($\lambda \in \{0.1, 0.
 
 *Table 1. All metrics are means over 20 logged checkpoints (200 steps, logged every 10). Grad Norm Std and Loss Std use sample standard deviation (ddof=1). KTO reward margin uses the trainer's internal reward estimates on unpaired signals; the final-step value (−0.00779) is omitted as a single-point measurement at 200 steps. KTO does not expose paired reward accuracy.*
 
-![Figure 1 — Gradient Norm Std Dev](compare_grad_norm_std.png)
+![Gradient Norm Std](outputs/stability_analysis/compare_grad_norm_std.png)
 *Figure 1. Gradient Norm Std Dev across methods. Shows monotonic reduction (DPO = 4.74, VA-0.1 = 4.06, VA-0.2 = 3.55, VA-0.3 = 3.32). This primary result serves as direct evidence that VA-DPO is doing what it was designed to do.*
 
 ![Figure 2 — Mean Reward Margin](compare_margin_mean.png)
